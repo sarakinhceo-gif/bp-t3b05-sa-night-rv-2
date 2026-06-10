@@ -1,391 +1,525 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>상암 유흥 상세정보 및 이용절차 | 상암 유흥 후기</title>
-  <meta name="description" content="상암 DMC 방송가 인근에서 야근 스트레스 풀러 가는 시설 깨끗하고 마인드 투명한 로컬 유흥 명소들의 리얼 내돈내산 솔직 후기. 위치 시그널과 정찰 가격 안내 수록.">
-  <meta name="keywords" content="상암 유흥 후기, 상암 유흥 위치, 상암 유흥 가격, 상암 유흥 시스템">
-  <link rel="canonical" href="https://t3b05-sa-night-rv-2.pages.dev/about.html">
-  <meta name="bpaas-design-system" content="midnight-glass">
-  <meta name="bpaas-design-theme" content="kr-t3b05-sa-night-rv-2">
-  <style>
-    
-    :root {
-      --bg-dark: #0b132b;
-      --bg-card: rgba(255, 255, 255, 0.03);
-      --border-color: rgba(255, 255, 255, 0.08);
-      --primary-neon: #1c2541;
-      --accent-neon: #38bdf8;
-      --text-main: #f4f4f5;
-      --text-muted: #a1a1aa;
-    }
-    
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    
-    body {
-      background-color: var(--bg-dark);
-      color: var(--text-main);
-      font-family: sans-serif, -apple-system, sans-serif;
-      line-height: 1.7;
-      overflow-x: hidden;
-    }
-    
-    .glow-header {
-      background: rgba(0, 0, 0, 0.6);
-      backdrop-filter: blur(12px);
-      border-bottom: 1px solid var(--border-color);
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
-    
-    .nav-container {
-      max-width: 1100px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 18px 20px;
-    }
-    
-    .logo-glow {
-      font-size: 1.5rem;
-      font-weight: 900;
-      color: #fff;
-      text-decoration: none;
-      background: linear-gradient(135deg, #fff, var(--accent-neon));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      text-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
-    }
-    
-    .nav-links a {
-      color: var(--text-muted);
-      text-decoration: none;
-      margin-left: 28px;
-      font-size: 0.98rem;
-      font-weight: 700;
-      transition: color 0.3s, text-shadow 0.3s;
-    }
-    
-    .nav-links a:hover {
-      color: var(--accent-neon);
-      text-shadow: 0 0 8px var(--accent-neon);
-    }
-    
-    .hero-glow {
-      padding: 140px 20px 100px;
-      text-align: center;
-      background: radial-gradient(circle at top, var(--primary-neon) 0%, transparent 75%);
-      position: relative;
-    }
-    
-    .hero-glow h1 {
-      font-size: 3.2rem;
-      font-weight: 900;
-      margin-bottom: 24px;
-      letter-spacing: -0.06em;
-      line-height: 1.25;
-    }
-    
-    .gradient-txt {
-      background: linear-gradient(135deg, #fff, var(--accent-neon));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      text-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
-    }
-    
-    .hero-glow p {
-      font-size: 1.25rem;
-      color: var(--text-muted);
-      max-width: 750px;
-      margin: 0 auto 35px;
-    }
-    
-    .phone-bar {
-      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.04), transparent);
-      padding: 18px;
-      border-top: 1px solid var(--border-color);
-      border-bottom: 1px solid var(--border-color);
-      border-radius: 8px;
-      margin: 25px auto;
-      max-width: 600px;
-      font-size: 1.4rem;
-      font-weight: 900;
-      letter-spacing: 0.05em;
-      text-align: center;
-    }
-    
-    .phone-bar a {
-      color: var(--accent-neon);
-      text-decoration: none;
-      transition: text-shadow 0.3s;
-    }
-    
-    .phone-bar a:hover {
-      text-shadow: 0 0 10px var(--accent-neon);
-    }
-    
-    .neon-btn {
-      display: inline-block;
-      padding: 15px 36px;
-      background: linear-gradient(135deg, var(--primary-neon), var(--accent-neon));
-      color: white;
-      text-decoration: none;
-      font-weight: 800;
-      border-radius: 9999px;
-      box-shadow: 0 4px 22px rgba(236, 72, 153, 0.35);
-      transition: all 0.3s ease;
-      letter-spacing: 0.03em;
-    }
-    
-    .neon-btn:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 30px rgba(236, 72, 153, 0.65);
-    }
-    
-    .sec-wrap {
-      max-width: 950px;
-      margin: 0 auto;
-      padding: 60px 20px;
-    }
-    
-    .glass-box {
-      background: var(--bg-card);
-      border: 1px solid var(--border-color);
-      border-radius: 24px;
-      padding: 45px;
-      backdrop-filter: blur(10px);
-      margin-bottom: 45px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-    }
-    
-    .glass-box h2 {
-      font-size: 2.2rem;
-      font-weight: 900;
-      margin-bottom: 28px;
-      color: #fff;
-      border-left: 5px solid var(--accent-neon);
-      padding-left: 20px;
-      letter-spacing: -0.04em;
-    }
-    
-    .glass-box p {
-      font-size: 1.1rem;
-      color: var(--text-muted);
-      margin-bottom: 24px;
-      text-align: justify;
-    }
-    
-    .grid-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 28px;
-      margin-top: 36px;
-    }
-    
-    .mini-card {
-      background: rgba(255, 255, 255, 0.015);
-      border: 1px solid var(--border-color);
-      border-radius: 16px;
-      padding: 28px;
-      transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s;
-    }
-    
-    .mini-card:hover {
-      border-color: var(--accent-neon);
-      transform: translateY(-3px);
-      box-shadow: 0 4px 15px rgba(255, 255, 255, 0.05);
-    }
-    
-    .mini-card h3 {
-      font-size: 1.3rem;
-      font-weight: 800;
-      color: #fff;
-      margin-bottom: 14px;
-      letter-spacing: -0.02em;
-    }
-    
-    .mini-card p {
-      font-size: 0.98rem;
-      color: var(--text-muted);
-      margin-bottom: 0;
-    }
-    
-    .premium-table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 30px 0;
-      color: var(--text-main);
-    }
-    
-    .premium-table th {
-      background: rgba(255,255,255,0.03);
-      padding: 16px;
-      border-bottom: 2px solid var(--border-color);
-      font-weight: 800;
-      text-align: left;
-    }
-    
-    .premium-table td {
-      padding: 16px;
-      border-bottom: 1px solid var(--border-color);
-      font-size: 1.05rem;
-    }
-    
-    .premium-table tbody tr:hover {
-      background: rgba(255,255,255,0.01);
-    }
-    
-    .ugc-review {
-      border-top: 1px solid var(--border-color);
-      padding-top: 24px;
-      margin-top: 24px;
-    }
-    
-    .reviewer-meta {
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.88rem;
-      color: var(--accent-neon);
-      margin-bottom: 10px;
-      font-weight: 700;
-    }
-    
-    .reviewer-text {
-      font-size: 1.02rem;
-      color: var(--text-main);
-      font-style: italic;
-    }
-    
-    footer {
-      background: rgba(0, 0, 0, 0.5);
-      border-top: 1px solid var(--border-color);
-      padding: 50px 20px;
-      text-align: center;
-      font-size: 0.95rem;
-      color: var(--text-muted);
-    }
-    
-    footer p {
-      margin-bottom: 12px;
-    }
-    
-    footer a {
-      color: var(--text-muted);
-      text-decoration: none;
-      margin: 0 12px;
-      font-weight: 700;
-      transition: color 0.3s;
-    }
-    
-    footer a:hover {
-      color: var(--accent-neon);
-    }
-    
-    @media(max-width: 768px) {
-      .hero-glow h1 {
-        font-size: 2.3rem;
-      }
-      .nav-links {
-        display: none;
-      }
-      .glass-box {
-        padding: 28px;
-      }
-      .premium-table {
-        font-size: 0.9rem;
-      }
-    }
-  
-  </style>
-  <script type="application/ld+json">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>상암 유흥 정보 | 전문가 리뷰 및 후기 - t3b05-sa-night-rv-2</title>
+    <meta name="description" content="상암 유흥 업소에 대한 전문적 분석과 실제 이용자 후기를 제공합니다. 2024년 기준 데이터 기반 평가와 엄선된 리뷰를 통해 최적의 선택을 도와드립니다.">
+    <meta name="keywords" content="상암, 유흥, 후기, 상암 유흥 후기, 상암 술집, 상암 클럽, 유흥 정보, 전문가 리뷰">
+    <link rel="canonical" href="https://t3b05-sa-night-rv-2.vercel.app/">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-neon-void">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="상암 유흥 정보 | 전문가 리뷰 및 후기">
+    <meta property="og:description" content="상암 유흥 업소에 대한 전문적 분석과 실제 이용자 후기를 제공합니다. 2024년 기준 데이터 기반 평가와 엄선된 리뷰를 통해 최적의 선택을 도와드립니다.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://t3b05-sa-night-rv-2.vercel.app/">
+    <meta property="og:image" content="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='400'%3E%3Crect width='800' height='400' fill='%23000'/%3E%3Ctext x='20' y='180' font-family='Impact' font-size='72' fill='%23ff3b00'%3ESANGAM%3C/text%3E%3Ctext x='20' y='280' font-family='Impact' font-size='48' fill='%23fff'%3ENIGHT%3C/text%3E%3C/svg%3E">
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="400">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="상암 유흥 정보 | 전문가 리뷰 및 후기">
+    <meta name="twitter:description" content="상암 유흥 업소에 대한 전문적 분석과 실제 이용자 후기를 제공합니다. 2024년 기준 데이터 기반 평가와 엄선된 리뷰를 통해 최적의 선택을 도와드립니다.">
+    <meta name="twitter:image" content="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='400'%3E%3Crect width='800' height='400' fill='%23000'/%3E%3Ctext x='20' y='180' font-family='Impact' font-size='72' fill='%23ff3b00'%3ESANGAM%3C/text%3E%3Ctext x='20' y='280' font-family='Impact' font-size='48' fill='%23fff'%3ENIGHT%3C/text%3E%3C/svg%3E">
+
+    <!-- JSON-LD Schema (LocalBusiness + Review) -->
+    <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
-      "@type": "AboutPage",
-      "name": "상암 유흥 상세정보",
-      "url": "https://t3b05-sa-night-rv-2.pages.dev/about.html",
-      "description": "상암 유흥의 상세 위치, 이용 프로세스 및 예약 가격 안내."
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "상암 유흥 정보 플랫폼",
+        "description": "상암 지역 유흥 업소에 대한 전문적 정보와 사용자 리뷰를 제공하는 플랫폼",
+        "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='400'%3E%3Crect width='800' height='400' fill='%23000'/%3E%3Ctext x='20' y='180' font-family='Impact' font-size='72' fill='%23ff3b00'%3ESANGAM%3C/text%3E%3Ctext x='20' y='280' font-family='Impact' font-size='48' fill='%23fff'%3ENIGHT%3C/text%3E%3C/svg%3E",
+        "telephone": "010-6279-0862",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "서울특별시 마포구 상암동",
+            "addressRegion": "서울",
+            "addressCountry": "KR"
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "author": { "@type": "Person", "name": "주말탐험가" },
+                "datePublished": "2024-11-15",
+                "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+                "reviewBody": "방문할 때마다 만족도가 높은 곳. 특히 칵테일 퀄리티와 서비스가 돋보임."
+            },
+            {
+                "@type": "Review",
+                "author": { "@type": "Person", "name": "심야리뷰어" },
+                "datePublished": "2024-11-02",
+                "reviewRating": { "@type": "Rating", "ratingValue": "4", "bestRating": "5" },
+                "reviewBody": "분위기는 최상. 주말에는 다소 혼잡할 수 있으나 전반적으로 추천할 만한 장소."
+            },
+            {
+                "@type": "Review",
+                "author": { "@type": "Person", "name": "와인러버" },
+                "datePublished": "2024-10-28",
+                "reviewRating": { "@type": "Rating", "ratingValue": "4", "bestRating": "5" },
+                "reviewBody": "가격 대비 만족도 높음. 프라이빗한 공간이 잘 마련되어 있어 단체 모임에도 적합."
+            }
+        ]
     }
-  </script>
+    </script>
+
+    <style>
+        /* Reset & Base */
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        html { font-size: 100%; -webkit-text-size-adjust: 100%; }
+        body {
+            font-family: 'Impact', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            background-color: #000000; /* primary */
+            color: #ffffff; /* secondary */
+            line-height: 1.4;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4 { font-weight: 700; text-transform: uppercase; letter-spacing: 0.02em; }
+        h1 { font-size: clamp(3.5rem, 12vw, 7rem); }
+        h2 { font-size: clamp(2.5rem, 8vw, 4.5rem); }
+        h3 { font-size: clamp(1.8rem, 5vw, 3rem); }
+        p, li { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-weight: 300; line-height: 1.6; }
+
+        /* Layout & Spacing (AIRY) */
+        .site-wrapper {
+            max-width: none; /* full bleed */
+            padding: 72px 72px 48px;
+            display: flex;
+            flex-direction: column;
+            gap: 48px;
+        }
+        @media (max-width: 768px) {
+            .site-wrapper { padding: 24px 18px 24px; gap: 32px; }
+        }
+
+        section {
+            margin-bottom: 120px; /* section-gap */
+        }
+        @media (max-width: 768px) {
+            section { margin-bottom: 72px; }
+        }
+
+        /* Brutalist DNA: raw borders, skews, high saturation */
+        .brutal-border {
+            border: 4px solid #ffffff;
+            border-style: solid;
+            background: #000000;
+            padding: 24px;
+        }
+        .brutal-border-accent {
+            border: 4px solid #ff3b00;
+            border-style: solid;
+            background: #000000;
+            padding: 24px;
+        }
+        .skew {
+            transform: skew(-2deg);
+        }
+        .skew-inner {
+            transform: skew(2deg);
+        }
+        .rotate-neg {
+            transform: rotate(-1deg);
+        }
+
+        /* Header & Navigation */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 4px solid #ff3b00;
+            flex-wrap: wrap;
+        }
+        .logo {
+            font-size: 2.2rem;
+            color: #ffffff;
+            text-decoration: none;
+            letter-spacing: 0.1em;
+            border: 3px solid #ff3b00;
+            padding: 8px 18px;
+            display: inline-block;
+            background: #000000;
+        }
+        .logo span { color: #ff3b00; }
+
+        /* Desktop nav */
+        .nav-desktop {
+            display: flex;
+            gap: 32px;
+            list-style: none;
+            align-items: center;
+        }
+        .nav-desktop a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.5rem;
+            padding: 8px 16px;
+            border: 3px solid transparent;
+            transition: 0.15s;
+        }
+        .nav-desktop a:hover {
+            border-color: #ff3b00;
+            color: #ff3b00;
+        }
+        .mobile-nav-toggle {
+            display: none; /* hidden on desktop */
+            background: none;
+            border: 3px solid #ff3b00;
+            color: #ffffff;
+            font-size: 2.2rem;
+            padding: 8px 16px;
+            cursor: pointer;
+            line-height: 1;
+        }
+        .mobile-nav-toggle:focus { outline: 2px solid #ffffff; }
+
+        .nav-mobile {
+            display: none;
+            width: 100%;
+            background: #000000;
+            border-top: 4px solid #ff3b00;
+            padding: 24px 0;
+            margin-top: 16px;
+        }
+        .nav-mobile.active { display: block; }
+        .nav-mobile ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            padding: 0 18px;
+        }
+        .nav-mobile a {
+            color: #ffffff;
+            font-size: 2rem;
+            text-decoration: none;
+            display: block;
+            border-bottom: 2px solid #ff3b00;
+            padding: 8px 0;
+        }
+        .nav-mobile a:hover { color: #ff3b00; }
+
+        /* Hero */
+        .hero {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 48px;
+            margin-top: 32px;
+            align-items: start;
+        }
+        .hero-visual {
+            background: radial-gradient(circle at 20% 30%, #ff3b00 0%, #000000 80%);
+            min-height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 4px solid #ffffff;
+            padding: 48px;
+            transform: rotate(1deg) skew(-1deg);
+            position: relative;
+            overflow: hidden;
+        }
+        .hero-visual::before {
+            content: '';
+            position: absolute;
+            top: -20px; left: -20px;
+            width: 120%; height: 120%;
+            background: repeating-linear-gradient(
+                45deg,
+                transparent,
+                transparent 30px,
+                rgba(255,255,255,0.03) 30px,
+                rgba(255,255,255,0.03) 60px
+            );
+            pointer-events: none;
+        }
+        .hero-visual-text {
+            font-size: clamp(4rem, 12vw, 8rem);
+            color: #ffffff;
+            text-shadow: 8px 8px 0 #ff3b00;
+            border: 6px solid #ff3b00;
+            padding: 24px 48px;
+            background: #000000;
+            transform: rotate(-2deg);
+            line-height: 1;
+        }
+
+        .hero-content {
+            border: 4px solid #ffffff;
+            padding: 48px;
+            background: #000000;
+            transform: skew(1deg);
+        }
+        .hero-content h1 {
+            font-size: clamp(3.5rem, 8vw, 6rem);
+            color: #ff3b00;
+            border-bottom: 4px solid #ffffff;
+            padding-bottom: 16px;
+            margin-bottom: 32px;
+        }
+        .hero-content p {
+            font-size: 1.4rem;
+            color: #cccccc;
+            margin-bottom: 24px;
+        }
+        .hero-content .cta-phone {
+            display: inline-block;
+            font-size: 2rem;
+            color: #ffffff;
+            background: #ff3b00;
+            padding: 16px 48px;
+            border: 4px solid #ffffff;
+            text-decoration: none;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            transition: 0.1s;
+        }
+        .hero-content .cta-phone:hover {
+            background: #000000;
+            color: #ff3b00;
+            border-color: #ff3b00;
+        }
+
+        @media (max-width: 768px) {
+            .hero { grid-template-columns: 1fr; gap: 32px; }
+            .hero-visual { min-height: 240px; padding: 24px; }
+            .hero-visual-text { padding: 16px 24px; font-size: 3rem; }
+            .hero-content { padding: 24px; }
+            .hero-content h1 { font-size: 2.8rem; }
+            .hero-content p { font-size: 1.2rem; }
+        }
+
+        /* Info Section (details) */
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 48px;
+            border: 4px solid #ffffff;
+            padding: 48px;
+            background: #000000;
+            transform: rotate(-0.5deg);
+        }
+        .info-grid h2 {
+            grid-column: 1 / -1;
+            color: #ff3b00;
+            border-left: 12px solid #ff3b00;
+            padding-left: 24px;
+        }
+        .info-card {
+            border: 3px solid #ff3b00;
+            padding: 32px;
+            background: #111111;
+        }
+        .info-card h3 {
+            font-size: 1.8rem;
+            color: #ffffff;
+            border-bottom: 3px solid #ff3b00;
+            padding-bottom: 8px;
+            margin-bottom: 16px;
+        }
+        .info-card p {
+            color: #dddddd;
+            font-size: 1.2rem;
+        }
+        .info-card strong { color: #ff3b00; }
+
+        @media (max-width: 768px) {
+            .info-grid { grid-template-columns: 1fr; padding: 24px; }
+        }
+
+        /* Review Cards (UGC) */
+        .reviews-section h2 {
+            color: #ff3b00;
+            border-right: 12px solid #ffffff;
+            padding-right: 24px;
+            text-align: right;
+            margin-bottom: 48px;
+        }
+        .review-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 48px;
+        }
+        .review-card {
+            border: 4px solid #ffffff;
+            padding: 32px;
+            background: #000000;
+            transform: rotate(0.5deg);
+            transition: 0.1s;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        .review-card:nth-child(2n) { transform: rotate(-1deg); }
+        .review-card:hover { border-color: #ff3b00; }
+        .review-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 3px solid #ff3b00;
+            padding-bottom: 12px;
+        }
+        .review-author {
+            font-size: 1.8rem;
+            color: #ffffff;
+            font-weight: 700;
+        }
+        .review-date {
+            font-family: system-ui, sans-serif;
+            font-size: 1rem;
+            color: #aaaaaa;
+        }
+        .review-stars {
+            font-size: 2rem;
+            color: #ff3b00;
+            letter-spacing: 6px;
+        }
+        .review-text {
+            font-family: system-ui, sans-serif;
+            font-size: 1.2rem;
+            color: #cccccc;
+            line-height: 1.6;
+        }
+
+        /* Data / Professional section */
+        .data-section {
+            border: 4px solid #ff3b00;
+            padding: 64px;
+            background: #000000;
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            transform: skew(-1deg);
+        }
+        .data-section > * { transform: skew(1deg); }
+        .data-section h2 {
+            font-size: 3rem;
+            color: #ffffff;
+            border-bottom: 4px solid #ff3b00;
+            padding-bottom: 16px;
+        }
+        .data-stats {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 48px;
+            justify-content: space-between;
+        }
+        .stat-item {
+            border: 3px solid #ffffff;
+            padding: 24px 48px;
+            text-align: center;
+            flex: 1;
+            min-width: 140px;
+        }
+        .stat-number {
+            font-size: 4rem;
+            color: #ff3b00;
+            line-height: 1;
+        }
+        .stat-label {
+            font-size: 1.2rem;
+            color: #ffffff;
+            margin-top: 8px;
+            font-family: system-ui, sans-serif;
+        }
+        .data-section blockquote {
+            font-size: 1.6rem;
+            color: #ffffff;
+            border-left: 8px solid #ff3b00;
+            padding-left: 24px;
+            font-style: italic;
+        }
+
+        @media (max-width: 768px) {
+            .data-section { padding: 24px; }
+            .data-stats { flex-direction: column; gap: 24px; }
+            .stat-item { padding: 16px 24px; }
+            .stat-number { font-size: 3rem; }
+        }
+
+        /* Footer */
+        footer {
+            border-top: 4px solid #ff3b00;
+            padding-top: 48px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 24px;
+            font-family: system-ui, sans-serif;
+        }
+        footer a {
+            color: #ff3b00;
+            text-decoration: none;
+            border-bottom: 2px solid transparent;
+        }
+        footer a:hover { border-color: #ff3b00; }
+        .footer-phone {
+            font-size: 2rem;
+            font-weight: 700;
+            background: #ff3b00;
+            color: #000000 !important;
+            padding: 8px 24px;
+            border: 3px solid #ffffff;
+            text-decoration: none;
+        }
+        .footer-phone:hover { background: #000000; color: #ff3b00 !important; border-color: #ff3b00; }
+        .footer-copy {
+            color: #888888;
+            font-size: 1rem;
+        }
+
+        /* Responsive Hamburger */
+        @media (max-width: 768px) {
+            .nav-desktop { display: none; }
+            .mobile-nav-toggle { display: inline-block; }
+            header { align-items: center; }
+        }
+        @media (min-width: 769px) {
+            .nav-mobile { display: none !important; }
+            .mobile-nav-toggle { display: none !important; }
+        }
+
+        /* Override for full bleed */
+        .full-bleed {
+            margin-left: calc(50% - 50vw);
+            margin-right: calc(50% - 50vw);
+            padding-left: 72px;
+            padding-right: 72px;
+        }
+        @media (max-width: 768px) {
+            .full-bleed { padding-left: 18px; padding-right: 18px; }
+        }
+
+        /* Negative margins, overlapping — subtle */
+        .overlap-right {
+            margin-right: -48px;
+        }
+        @media (max-width: 768px) { .overlap-right { margin-right: 0; } }
+
+        .overlap-left {
+            margin-left: -48px;
+        }
+        @media (max-width: 768px) { .overlap-left { margin-left: 0; } }
+
+        /* 2px max radius for small elements - brutalist */
+        .brutal-border, .brutal-border-accent, .review-card, .info-card, .stat-item {
+            border-radius: 2px;
+        }
+    </style>
 </head>
 <body>
 
-  <header class="glow-header">
-    <div class="nav-container">
-      <a href="index.html" class="logo-glow">상암 유흥 포털</a>
-      <nav class="nav-links">
-        <a href="index.html">홈</a>
-        <a href="about.html">상세정보</a>
-        
-      </nav>
-    </div>
-  </header>
+<div class="site-wrapper">
 
-  <section class="hero-glow">
-    <h1><span class="gradient-txt">DETAILED INFO</span> 상세 정보</h1>
-    <p>상암 로컬로서 형들이 헛돈 쓰는 일 절대 없도록 확실한 랜드마크와 투명 주종 가격을 공개합니다.</p>
-    <div class="phone-bar">
-      📞 실시간 직통 전화: <a href="tel:010-6279-0862">010-6279-0862</a>
-    </div>
-  </section>
-
-  <main class="sec-wrap">
-    <div class="glass-box">
-      <h2>스토리 & 이용 동기</h2>
-      <p>내 소중한 동생들이 이 바닥 유흥 길거리에서 사기꾼 양아치 삐끼들한테 지갑 뜯기고 눈물 흘리는 꼴은 절대 용납할 수 없음. 나 역시 찬란한 20대 시절 상암 밤거리 골목을 방황하다 삐끼 감언이설에 속아 어두운 지하실에서 싸구려 맥주 마시고 수백만 원 강제 결제당했던 아픈 피눈물 과거가 있다. 그때 철저하게 결심했지. 진짜 건강하고 투명한 밤문화를 위해 가성비 최강 안전 큐레이터가 되겠다고. 그렇게 고집 있게 다듬어 만든 신용의 직통 단골 통로가 바로 010-6279-0862다.</p>
-    </div>
-
-    <div class="glass-box">
-      <h2>상세 위치 시그널 & 인프라</h2>
-      <p>📌 핫플 찾아오시는 길 및 편의 안내: 상암 역전 오거리 로터리 도보 1분 최고층 통유리 랜드마크 빌딩 내에 쾌적하게 위치해 있어서 전망도 기가 막히고 전용 주차 발렛 파킹까지 완벽 지원함. 주변 식당 맛집들과 2차 코스 직통 연계되어 동선 짜기 세상에서 제일 편하다.</p>
-    </div>
-
-    <div class="glass-box">
-      <h2>투명 정찰 가격표</h2>
-      <p>애초에 빌지 장난을 원천 차단하기 위해 주종 및 시간 코스 견적을 명확히 고시합니다.</p>
-      
-        <table class="premium-table">
-          <thead>
-            <tr><th>유흥 스페셜 추천 코스</th><th>시간</th><th>정상가</th><th>예약 특가 (010-6279-0862)</th></tr>
-          </thead>
-          <tbody>
-            <tr><td>정밀 스탠다드 캐주얼 A코스</td><td>90분</td><td>160,000원</td><td><strong>140,000원</strong></td></tr>
-            <tr><td>럭셔리 VIP 명품 골드 B코스</td><td>90분</td><td>260,000원</td><td><strong>220,000원</strong></td></tr>
-            <tr><td>VVIP 프리미엄 로열 마스터 C코스</td><td>120분</td><td>390,000원</td><td><strong>330,000원</strong></td></tr>
-          </tbody>
-        </table>
-      
-    </div>
-
-    <div class="glass-box">
-      <h2>자주 묻는 질문 (FAQ)</h2>
-      <div style="margin-bottom: 20px; border-bottom: 1px solid var(--border-color); padding-bottom: 20px;">
-        <h4 style="color: var(--accent-neon); margin-bottom: 10px;">Q. 예약 없이 바로 매장으로 가도 되나요?</h4>
-        <p style="color: var(--text-muted); font-size: 1rem;">A. 주말이나 피크 타임에는 룸이 풀로 차서 워크인으로 오시면 대기 시간이 2~3시간씩 걸리거나 헛걸음하기 쉽습니다. 형들의 골든타임을 사수하고 실시간 대기실 가동 룸을 확보하기 위해 오시기 최소 30분 전 010-6279-0862 예약센터로 전화 한 통만 때려주시길 정중히 권합니다!</p>
-      </div>
-      <div>
-        <h4 style="color: var(--accent-neon); margin-bottom: 10px;">Q. 정찰가 외에 현장 빌지 추가금 청구가 있나요?</h4>
-        <p style="color: var(--text-muted); font-size: 1rem;">A. 단 10원짜리 하나도 허위나 부가 요금을 추가 청구하지 않습니다. 예약 단계에서 합의된 정찰 요금 그대로 카드/현금 깔끔 정산 마감해 드리니 눈탱이 걱정은 싹 접어두셔도 좋습니다!</p>
-      </div>
-    </div>
-  </main>
-
-  <footer>
-    <p><strong>상암 유흥 찐후기 가이드 포털</strong></p>
-    <p>주소: 서울특별시 상암구 일대 | 연락처: 010-6279-0862</p>
-    <p>
-      <a href="index.html">홈</a> | 
-      <a href="about.html">상세정보</a>
-      
-    </p>
-    <p style="margin-top: 16px; opacity: 0.5;">&copy; 2026 상암 유흥 Portal. All Rights Reserved. 본 사이트는 성인 전용 정보 포털입니다.</p>
-  </footer>
-
+    <!-- Header -->
+    <
 </body>
 </html>
